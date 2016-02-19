@@ -1,0 +1,11 @@
+{
+  "name": "share-popups",
+  "version": "1.0.0",
+  "dependencies": {
+    "bind-polyfill": "~1.0.0"
+  },
+  "devDependencies": {
+    "qunit": "~1.21.0",
+    "jquery": "~2.2"
+  }
+}
