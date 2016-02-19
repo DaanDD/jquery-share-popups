@@ -3,6 +3,16 @@
 > Turn any DOM element into a share button
 
 
+## Installation
+
+### Bower
+
+```bower install --save share-popups```
+
+### NPM
+
+```npm install --save-dev share-popups```
+
 ## Getting started
 
 Add the `data-share` attribute to any DOM element:
