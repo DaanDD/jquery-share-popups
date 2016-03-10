@@ -1,4 +1,4 @@
-/*! share-popups - v1.0.0 - 2016-02-19
+/*! share-popups - v1.0.0 - 2016-03-10
 * Copyright (c) 2016 Daan De Deckere; Licensed MIT */
 (function ($) {
   function SharePopups () {
@@ -7,12 +7,12 @@
 
   $.extend(SharePopups.prototype, {
     init: function () {
-      return $('[data-share]').on('click', function() {
+      return $('[data-share]').on('click', function(event) {
         this.clickShare(event);
       }.bind(this));
     },
-    clickShare: function(e) {
-      e.preventDefault();
+    clickShare: function(event) {
+      event.preventDefault();
       var $element = $(event.target);
 
       try {

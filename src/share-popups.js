@@ -12,12 +12,12 @@
 
   $.extend(SharePopups.prototype, {
     init: function () {
-      return $('[data-share]').on('click', function() {
+      return $('[data-share]').on('click', function(event) {
         this.clickShare(event);
       }.bind(this));
     },
-    clickShare: function(e) {
-      e.preventDefault();
+    clickShare: function(event) {
+      event.preventDefault();
       var $element = $(event.target);
 
       try {
