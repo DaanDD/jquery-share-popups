@@ -1,4 +1,4 @@
-/*! share-popups - v1.0.0 - 2016-03-10
+/*! share-popups - v1.0.1 - 2016-03-10
 * Copyright (c) 2016 Daan De Deckere; Licensed MIT */
 (function ($) {
   function SharePopups () {
